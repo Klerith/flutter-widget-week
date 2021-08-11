@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:widget_week/src/screens/home_screen.dart';
- 
+import 'package:widget_week/screens/home_screen.dart';
+
 void main() => runApp(MyApp());
- 
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       initialRoute: 'home',
       routes: {
-        'home': ( _ ) => HomeScreen(),
+        'home': (_) => HomeScreen(),
       },
     );
   }
