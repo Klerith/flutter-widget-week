@@ -13,6 +13,9 @@ class MyApp extends StatelessWidget {
       routes: {
         'home': (_) => HomeScreen(),
       },
+      theme: ThemeData.light().copyWith(
+        primaryColor: Colors.indigo
+      ),
     );
   }
 }
